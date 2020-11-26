@@ -1,20 +1,21 @@
-# Portfolio Project
-Face Recognition, Age & Gender Estimation
+# **Portfolio Project: Face Recognition, Age & Gender Estimation Using Keras**
 
 
-Mind map for this project
+## **Mind map for this project**
+
+insert a picture here
 
 
-
-
-Required Tools:
+## **Required Tools:**
 TensorFlow, Keras, Python, OpenCV, FaceNet, MTCNN, Kalman Filter, GUI
 
 
 
-References:
+## **References:**
 (1)《FaceNet: A Unified Embedding for Face Recognition and Clustering》
 (2)《DeepFace: Closing the gap to human-level performance in face verification》
 (3) David Sandberg's FaceNet model: https://github.com/davidsandberg/facenet
 (4) MTCNN for face detection: https://github.com/ipazc/mtcnn
 (5)《Face Detection in Python Using a Webcam》
+
+add hyperlinks above!
