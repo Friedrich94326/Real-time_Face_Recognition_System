@@ -7,7 +7,7 @@
 
 
 ## **Development Tools:**
-TensorFlow: version 2.3.1 \
+TensorFlow-GPU: version 2.3.1 \
 Keras: version 2.4.3 \
 OpenCV: version 4.0.1 \
 Python: version 3.8.5 \
