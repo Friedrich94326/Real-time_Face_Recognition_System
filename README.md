@@ -14,7 +14,8 @@ Python: version 3.8.5 \
 FaceNet \
 MTCNN \
 Kalman Filter \
-GUI
+GUI \
+Logitech C170 Webcam
 
 
 
