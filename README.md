@@ -14,7 +14,7 @@ Python: version 3.8.5 \
 FaceNet \
 MTCNN \
 Kalman Filter \
-GUI \
+GUI
 
 
 
@@ -23,5 +23,5 @@ GUI \
 (2) [《DeepFace: Closing the gap to human-level performance in face verification》](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf) \
 (3) David Sandberg's *[FaceNet model](https://github.com/davidsandberg/facenet)* \
 (4) *[MTCNN](https://github.com/ipazc/mtcnn)* for face detection \
-(5) [《Face Detection in Python Using a Webcam》](https://realpython.com/face-detection-in-python-using-a-webcam/) \
+(5) [《Face Detection in Python Using a Webcam》](https://realpython.com/face-detection-in-python-using-a-webcam/)
 
