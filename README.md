@@ -3,6 +3,8 @@
 
 ## **Mind map for this project**
 
+## **Project Objectives:**
+Fine-tuning pre-training models 
 
 
 
