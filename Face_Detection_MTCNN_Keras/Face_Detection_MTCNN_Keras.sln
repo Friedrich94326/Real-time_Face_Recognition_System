@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Face_Detection_MTCNN_Keras", "Face_Detection_MTCNN_Keras.pyproj", "{EF98F01E-35D4-4981-BB29-F6C173217E14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF98F01E-35D4-4981-BB29-F6C173217E14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF98F01E-35D4-4981-BB29-F6C173217E14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0D013F7-28F2-4518-8B70-52C64DBED987}
+	EndGlobalSection
+EndGlobal
