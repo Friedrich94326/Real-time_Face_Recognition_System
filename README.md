@@ -31,6 +31,6 @@ Logitech C170 Webcam
 (2) [《DeepFace: Closing the gap to human-level performance in face verification》](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf) \
 (3) &nbsp; David Sandberg's *[prominent project](https://github.com/davidsandberg/facenet)* \
 (4) &nbsp; *[MTCNN](https://github.com/ipazc/mtcnn)* for face detection \
-(5) [《Face Detection in Python Using a Webcam》](https://realpython.com/face-detection-in-python-using-a-webcam/)
+(5) [《Face Detection in Python Using a Webcam》](https://realpython.com/face-detection-in-python-using-a-webcam/) \
 (6) *[Transfer Learning and Fine-tuning]*(https://www.tensorflow.org/tutorials/images/transfer_learning?fbclid=IwAR1h325gQ5L5S-QCwrlZWhsPE5qm4XGUsrsLJdjppzs_RABCOhxARn8voKA)
 
