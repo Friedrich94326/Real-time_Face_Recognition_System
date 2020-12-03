@@ -33,5 +33,6 @@ Logitech C170 Webcam
 (4) &nbsp; *[MTCNN](https://github.com/ipazc/mtcnn)* for face detection \
 (5) [《Face Detection in Python Using a Webcam》](https://realpython.com/face-detection-in-python-using-a-webcam/) \
 (6) &nbsp;[Transfer Learning and Fine-tuning](https://www.tensorflow.org/tutorials/images/transfer_learning?fbclid=IwAR1h325gQ5L5S-QCwrlZWhsPE5qm4XGUsrsLJdjppzs_RABCOhxARn8voKA) \
-(7) [《Face Recognition: Real-Time Face Recognition System using Deep Learning Algorithm and Raspberry Pi 3B》](https://medium.com/@BhashkarKunal/face-recognition-real-time-webcam-face-recognition-system-using-deep-learning-algorithm-and-98cf8254def7) 
-
+(7) [《Face Recognition: Real-Time Face Recognition System using Deep Learning Algorithm and Raspberry Pi 3B》](https://medium.com/@BhashkarKunal/face-recognition-real-time-webcam-face-recognition-system-using-deep-learning-algorithm-and-98cf8254def7) \
+(8) &nbsp; Chapter 14- Face Recognition [*Digital Image Processing: An Algorithmic Approach with MATLAB*](https://www.amazon.com/Digital-Image-Processing-Algorithmic-Textbooks/dp/1420079506), Uvais Qidwai and C.H. Chen
+o
