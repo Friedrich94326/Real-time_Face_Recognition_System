@@ -4,11 +4,11 @@
 ## **Mind map for this project**
 
 ## **Project Objectives:**
-(1) Construct a real-time face detector which displays a bounding box of a detected face and its confidence based on MTCNN (Haar Cascade as an alternative) and OpenCV. [DONE]
-(2) Create a base model using pre-trained models (FaceNet, DeepFace, VGG-16). 
-(3) Build a dataset of my own images. As required, each image must have dimensions (160, 160, 3).
-(4) Image preprocessing. (Noise reduction by Kalman filter.)
-(5) Stack classification layers on the top of the base network and then compile it. Train and evaluate the newly built model.
+(1) Construct a real-time face detector which displays a bounding box of a detected face and its confidence based on MTCNN (Haar Cascade as an alternative) and OpenCV. [DONE] \
+(2) Create a base model using pre-trained models (FaceNet, DeepFace, VGG-16). \
+(3) Build a dataset of my own images. As required, each image must have dimensions (160, 160, 3). \
+(4) Image preprocessing. (Noise reduction by Kalman filter.) \
+(5) Stack classification layers on the top of the base network and then compile it. Train and evaluate the newly built model. \
 (6) Data visualisation.
 
 
