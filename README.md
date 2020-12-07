@@ -7,7 +7,7 @@
 
 ***Phase*** | ***Description***
 ---- | ---
-Build a face detector | by MTCNN
+Build a face detector | based on MTCNN
 Create a complete dataset | 5_celebrities_dataset <br> my_family_and_friends <br/>
 Build a face classifier | transfer learning <br> fine-tuning the pre-trained FaceNet model <br/>
 Integrate system | Integrate detector and classifier into the entire recognition system
