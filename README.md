@@ -18,15 +18,6 @@ Display control | Use OpenCV VideoCapture() to receive video stream <br> Display
 Compare other models | Use other common pre-trained neural networks (e.g., VGG-16, DeepFace, Haar cascade) to perform our task
 
 
-## **Project Objectives:**
-(1) Construct a real-time face detector which displays a bounding box of a detected face and its confidence based on MTCNN <br/> &nbsp; &nbsp; (Haar Cascade as an alternative) and OpenCV. [**DONE**] \
-(2) Create a base model using pre-trained models (FaceNet, DeepFace, VGG-16). \
-(3) Build a dataset of my own images. As required, each image must have dimensions (160, 160, 3). \
-(4) Image preprocessing. (Noise reduction by Kalman filter.) \
-(5) Stack classification layers on the top of the base network and then compile it. Train and evaluate the newly built model. \
-(6) Data visualisation.
-
-
 
 
 
