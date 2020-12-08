@@ -1,7 +1,9 @@
-# **Portfolio Project: Real-time Face Recognition, Age & Gender Estimation Using Keras**
+# **Portfolio Project: Real-time Face Recognition System Using Keras**
 
 
-## **Mind map for this project**
+## **Overall Flow Chart for this project**
+
+![Image of Flow Chart](https://github.com/Friedrich94326/Portfolio_Project/blob/main/Overall%20Flow%20Chart.png)
 
 ## Stage Management
 
@@ -33,8 +35,9 @@ TensorFlow-GPU: version 2.3.0 \
 Keras: version 2.4.3 \
 OpenCV: version 4.2.0 \
 Python: version 3.6.9 \
-FaceNet \
+FaceNet's Inception Model \
 MTCNN \
+Scikit-learn: version 0.23.2 \
 Kalman Filter \
 GUI \
 Logitech C170 Webcam
