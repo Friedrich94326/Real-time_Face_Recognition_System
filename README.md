@@ -7,9 +7,10 @@
 
 ***Phase*** | ***Description***
 ---- | ---
-Build a face detector | based on MTCNN
 Create a complete dataset | 5_celebrities_dataset <br> my_family_and_friends <br/>
-Build a face classifier | transfer learning <br> fine-tuning the pre-trained FaceNet model <br/>
+Build a face detector | MTCNN-based detector to draw bounding box for each face detected and even crop the face
+Face Embedding | Use FaceNet network to get face embeddings for representing each face captured <br/> Transfer learning: fine-tuning the pre-trained FaceNet model <br/>
+Build a face classifier | Using SVM to classify face embeddings as one of faces in our dataset
 Integrate system | Integrate detector and classifier into the entire recognition system
 Display control | Use OpenCV VideoCapture() to receive video stream <br> Display bounding box, predicted label, and its probability on the screen <br/>
 Compare other models | Use other common pre-trained neural networks (e.g., VGG-16, DeepFace, Haar cascade) to perform our task
