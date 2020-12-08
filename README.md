@@ -1,7 +1,7 @@
 # **Portfolio Project: Real-time Face Recognition System Using Keras**
 
 
-## **Overall Flow Chart for this project**
+## **Flow Chart of the Face Recognition System**
 
 ![Image of Flow Chart](https://github.com/Friedrich94326/Portfolio_Project/blob/main/Overall%20Flow%20Chart.png)
 
