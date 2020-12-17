@@ -9,7 +9,7 @@
 
 ***Phase*** | ***Description***
 ---- | ---
-Build datasets | 5_celebrities_dataset <br> family_and_friends <br/>
+Build datasets | 5_celebrities_dataset <br> family_and_friends <br> family_and_friends_LITE <br/>
 Build a face detector | MTCNN-based detector to draw bounding box for each face detected and even crop the face
 Face Embedding | Use FaceNet's inception network to get face embeddings for representing each face captured <br/> Transfer learning: fine-tuning the pre-trained FaceNet model <br/>
 Build a face classifier | Using SVM to classify face embeddings as one of faces in our dataset
