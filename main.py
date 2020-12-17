@@ -35,6 +35,7 @@ def detect_MTCNN_webcam():
     required_size = (160, 160, 3)
     detector = MTCNN()
     
+    # load a pre-trainded FaceNet network- May refer to David Sandberg's model
     FaceNet_model = load_model('keras-facenet/model/facenet_keras.h5')
 
 
