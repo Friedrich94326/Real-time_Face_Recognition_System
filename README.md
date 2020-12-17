@@ -20,8 +20,9 @@ Compare other models | Use other common pre-trained neural networks (e.g., VGG-1
 
 
 ## DEMO
-![Image of DEMO_1](https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/friedrich__%2027%20with%20bounding%20boxes.jpg | width=100)
-![Image of DEMO_2](https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions.png)
+<img src="https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/friedrich__%2027%20with%20bounding%20boxes.jpg" width="400">
+
+![](https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions.png)
 
 
 
