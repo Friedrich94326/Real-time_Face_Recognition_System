@@ -22,7 +22,7 @@ Compare other models | Use other common pre-trained neural networks (e.g., VGG-1
 ## DEMO
 
 <p float="left">
-  <img src="https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions_Friedrich.png" width="240" />
+  <img src="https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions_Friedrich.png" width="240" hspace="20" />
   <img src="https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions_Friedrich_2.png" width="240"/ >
 </p>
 
