@@ -12,7 +12,6 @@ from truncate import *
 
 
 
-required_size = (160, 160) # according to paper
 
 """ Detect faces using cv2.imread() """
 
