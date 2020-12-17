@@ -21,7 +21,7 @@ Compare other models | Use other common pre-trained neural networks (e.g., VGG-1
 
 ## DEMO
 
-![](https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions_Friedrich.png) | ![](https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions_Friedrich_2.png | width=385)
+![](https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions_Friedrich.png) | ![](https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions_Friedrich_2.png)
 
 
 
