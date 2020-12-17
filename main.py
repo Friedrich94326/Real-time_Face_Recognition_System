@@ -11,6 +11,7 @@ from keras.models import load_model
 
 from detect_faces import *
 from train_SVM_classifier import * # load data and train SVM model
+from calculate_face_embeddings import *
 
 
 def video_init(is_2_write = False, save_path = None):
