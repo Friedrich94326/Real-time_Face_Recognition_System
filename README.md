@@ -21,14 +21,13 @@ Compare other models | Use other common pre-trained neural networks (e.g., VGG-1
 
 ## DEMO
 
-<p float="left">
-  <img align="left" src="https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions_Friedrich.png" hspace="50"/>
-  <img align="right" src="https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions_Friedrich_2.png" />
-</p>
+<img align="left" src="https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions_Friedrich.png" hspace="50"/>
+<img align="right" src="https://github.com/Friedrich94326/Portfolio_Project/blob/main/results/Predictions_Friedrich_2.png" />
 
 
 
 ## **Development Tools:**
+
 TensorFlow-GPU: version 2.3.0 \
 Keras: version 2.4.3 \
 OpenCV: version 4.2.0 \
