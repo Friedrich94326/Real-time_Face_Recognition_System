@@ -9,13 +9,13 @@ import imutils # to fasten FPS
 from truncate import *
 from keras.models import load_model
 
-from new_detect_faces import *
-from new_train_SVM_classifier import * # load data and train SVM model
+from detect_faces import *
+from train_SVM_classifier import * # load data and train SVM model
 
 
 def video_init(is_2_write = False, save_path = None):
    
-    cap = cv2.VideoCapture(1) # video input selection: 0 for built-in camera, 1 for Logitech C170
+    cap = cv2.VideoCapture(0) # video input selection: 0 for built-in camera, 1 for my Logitech C170
     
     frame_height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
     frame_width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
