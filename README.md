@@ -37,9 +37,6 @@ Python: version 3.6.9 \
 FaceNet's Inception Model \
 MTCNN \
 Scikit-learn: version 0.23.2 \
-Kalman Filter \
-GUI \
-Logitech C170 Webcam \
 CUDA version 11.1
 
 
