@@ -10,7 +10,7 @@ from truncate import *
 from keras.models import load_model
 
 from detect_faces import *
-from train_SVM_classifier import * # load data and train SVM model
+from train_SVM_classifier import * # Load data and train SVM model
 from calculate_face_embeddings import *
 
 
