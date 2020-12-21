@@ -1,3 +1,4 @@
+# Libraries/ Packages for implementing classification by SVM 
 from numpy import load
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import LabelEncoder
@@ -32,13 +33,13 @@ testy = out_encoder.transform(testy)
 SVM_clf = SVC(kernel = 'linear', probability = True)
 SVM_clf.fit(trainX, trainy)
 
-# Predict
+# Predict by the trained model
 yhat_train = SVM_clf.predict(trainX)
 yhat_test = SVM_clf.predict(testX)
 
-# Score
+# Score SVM classifier
 score_train = accuracy_score(trainy, yhat_train)
 score_test = accuracy_score(testy, yhat_test)
 
-# Summarise
+# Evaluation review
 print('Accuracy: train = %.3f %%, test = %.3f%%' % (score_train * 100, score_test * 100))
