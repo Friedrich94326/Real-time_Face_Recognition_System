@@ -36,7 +36,7 @@ def detect_MTCNN_webcam():
     required_size = (160, 160, 3)
     detector = MTCNN()
     
-    # load a pre-trainded FaceNet network- May refer to David Sandberg's model
+    # Load a pre-trainded FaceNet network- May refer to David Sandberg's model
     FaceNet_model = load_model('keras-facenet/model/facenet_keras.h5')
 
 
@@ -51,24 +51,22 @@ def detect_MTCNN_webcam():
         sess = tf.compat.v1.Session(config = config)
 
         
-    #----var
-    frame_count = 0
-    FPS = "Initialising"
+    # Display info
     no_face_str = "No faces detected"
 
     
 
-    #----video streaming init
+    # Video streaming initialisation
     cap, writer = video_init(is_2_write = False) # for cv2.VideoCapture()
    
         
 
     while cap.isOpened():
             
-        #----get image: Capture frame-by-frame
+        # Get image: Cope frame-by-frame
         ret, img = cap.read()
 
-        #----image processing
+        # Image preprocessing
         img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
         if ret is True: # an image is successfully captured
@@ -76,19 +74,19 @@ def detect_MTCNN_webcam():
             results = detector.detect_faces(img_rgb)
             
             
-            # extract faces
-            n_faces = len(results) # how many faces got detected in the current frame
+            # Extract faces
+            n_faces = len(results) # How many faces got detected in the current frame
 
-            if n_faces > 0:
+            if n_faces > 0: # If some faces detected
 
                 x1, y1, width, height = results[0]['box']
                 x1, y1 = abs(x1), abs(y1)
                 x2, y2 = x1 + width, y1 + height
 
-                # draw a rectangle on each face  
+                # Draw a rectangle on each face  
                 img_rgb = cv2.rectangle(img_rgb, (x1, y1), (x2, y2), (0, 255, 0), 2)
                 
-                # rsize pixels to the model size
+                # Resize pixels to the model size
                 face = img_rgb[y1:y2, x1:x2, :]
                 image = Image.fromarray(face)
                 image = np.resize(image, required_size)
@@ -104,30 +102,30 @@ def detect_MTCNN_webcam():
                 yhat_class = SVM_clf.predict(samples)
                 yhat_prob = SVM_clf.predict_proba(samples)
 
-                # Get the name
+                # Get the predicted name
                 class_index = yhat_class[0]
                 class_probability = yhat_prob[0, class_index] * 100
                 predicted_names = out_encoder.inverse_transform(yhat_class)
     
-                # Display the predicted label and probability
+                # Display the predicted name and probability
                 title = '%s (%.3f %%)' % (predicted_names[0], class_probability)
                 cv2.putText(img_rgb, title, (10, 70), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 255, 0), 1)
                         
                    
-            else: # no face detected
+            else: # If no face detected
                 cv2.putText(img_rgb, no_face_str, (10, 100), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 1)
             
                 
-            #----image display
+            # Display frame with recognisation outcome
             img_rgb = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2RGB)
             cv2.imshow("detect faces by MTCNN- Friedrich", img_rgb)
             
-            #----image writing
+            # Write image
             if writer is not None:
                 writer.write(img_rgb)
                 
 
-            #----'q' key pressed?
+            # Check if'q' key is pressed
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
                              
@@ -136,7 +134,7 @@ def detect_MTCNN_webcam():
             break
            
 
-    #----release the camera
+    # Release the camera
     cap.release()
     if writer is not None:
         writer.release()
