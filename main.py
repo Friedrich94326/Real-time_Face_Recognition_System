@@ -31,7 +31,7 @@ def video_init(is_2_write = False, save_path = None):
         
     return cap, writer
 
-def detect_MTCNN_webcam():
+def main():
     
     required_size = (160, 160, 3)
     detector = MTCNN()
@@ -143,4 +143,4 @@ def detect_MTCNN_webcam():
 
 
 if __name__ == '__main__':
-    detect_MTCNN_webcam()
+    main()
