@@ -5,14 +5,14 @@ from numpy import asarray
 from numpy import savez_compressed
 from keras.models import load_model
 
-# get the face embedding for one face based on a specified deep network model
+# Get the face embedding for one face based on a specified deep network model
 
 def get_embedding(model, face_pixels):
     
     face_pixels = face_pixels.astype('float32') # scale pixel values
 
     
-    # pre-whitening process: pixel values across channels (globally)
+    # Pre-whitening process: pixel values across channels (globally)
     mean, std = face_pixels.mean(), face_pixels.std() 
     face_pixels = (face_pixels - mean) / std
     
