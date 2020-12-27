@@ -116,7 +116,7 @@ def main():
                 cv2.putText(img_rgb, no_face_str, (10, 100), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 1)
             
                 
-            # Display frame with recognisation outcome
+            # Display frame with recognition outcome
             img_rgb = cv2.cvtColor(img_rgb, cv2.COLOR_BGR2RGB)
             cv2.imshow("detect faces by MTCNN- Friedrich", img_rgb)
             
